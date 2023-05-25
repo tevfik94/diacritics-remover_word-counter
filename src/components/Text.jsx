@@ -13,22 +13,6 @@ function Text() {
     setOutputText(removeDiacritics(event.target.value));
   };
 
-  //   return (
-  //     <div>
-  //       <h1>Arabic Diacritics Remover</h1>
-  //       <label htmlFor="input-text">Input Text:</label>
-  //       <input
-  //         type="text"
-  //         id="input-text"
-  //         value={inputText}
-  //         onChange={handleInputChange}
-  //       />
-  //       <br />
-  //       <label htmlFor="output-text">Output Text:</label>
-  //       <input type="text" id="output-text" value={outputText} readOnly />
-  //     </div>
-  //   );
-
   return (
     <div>
       <h1>Arabic Diacritics Remover</h1>
