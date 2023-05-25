@@ -18,7 +18,7 @@ function Text() {
     <div className="text">
       <h1>Arabic Diacritics Remover</h1>
       <div>
-        <label>Input</label>
+        <label>Text with diacritics </label>
         <textarea
           type="text"
           id="input-text"
@@ -28,7 +28,7 @@ function Text() {
         />
       </div>
       <div>
-        <label>Output</label>
+        <label>Text without diacritics</label>
         <textarea
           type="text"
           id="output-text"
