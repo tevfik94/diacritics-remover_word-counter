@@ -46,13 +46,17 @@ function File() {
 
   return (
     <div className="file">
+      <p>
+        You can upload an Excel file that contains Arabic text with diacritics
+        and then download it without any diacritics.
+      </p>
+      <p>Note: The file should be in Excel format and contain only 1 sheet.</p>
       <input
         type="file"
         accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"
         onChange={handleFileChange}
       />
       {fileUploaded && <button onClick={handleExport}>Export</button>}
-      <p>The file should be Excel and in 1 sheet</p>
     </div>
   );
 }
