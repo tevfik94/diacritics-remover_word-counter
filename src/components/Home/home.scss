@@ -11,15 +11,17 @@
   }
 
   .card {
-    width: 80%;
+    width: 85%;
     display: flex;
     background-color: white;
-    border-radius: 10px;
-    min-height: 75%;
+    border-radius: 7px;
+    min-height: 80%;
+    align-items: center;
+    justify-content: center;
 
     .left {
       flex: 1;
-      padding: 30px;
+      padding: 20px;
       display: flex;
       flex-direction: column;
       gap: 20px;
@@ -27,7 +29,7 @@
     }
     .right {
       flex: 1;
-      padding: 30px;
+      padding: 20px;
       display: flex;
       flex-direction: column;
       gap: 20px;
