@@ -1,0 +1,36 @@
+.home {
+  height: 100vh;
+  background: linear-gradient(#16222a, #3a6073);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #16222a;
+  }
+
+  .card {
+    width: 80%;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 75%;
+
+    .left {
+      flex: 1;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      border-right: 1px dotted #16222a;
+    }
+    .right {
+      flex: 1;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}

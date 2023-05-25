@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./text.scss";
 
 function Text() {
   const [inputText, setInputText] = useState("");
@@ -14,10 +15,10 @@ function Text() {
   };
 
   return (
-    <div>
+    <div className="text">
       <h1>Arabic Diacritics Remover</h1>
       <div>
-        <label>Input Text:</label>
+        <label>Input</label>
         <textarea
           type="text"
           id="input-text"
@@ -27,7 +28,7 @@ function Text() {
         />
       </div>
       <div>
-        <label>Output Text:</label>
+        <label>Output</label>
         <textarea
           type="text"
           id="output-text"

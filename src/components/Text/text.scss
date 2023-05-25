@@ -1,0 +1,17 @@
+.text {
+  label {
+    display: flex;
+    font-weight: bold;
+    color: #3a6073;
+  }
+  textarea {
+    direction: rtl;
+    width: 90%;
+    height: 100px;
+    box-sizing: border-box;
+    resize: none;
+  }
+  textarea:focus {
+    border-color: blue;
+  }
+}

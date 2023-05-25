@@ -1,0 +1,27 @@
+.file {
+  display: inline-block;
+  flex-direction: column;
+  margin: 20px;
+
+  input[type="file"]::file-selector-button {
+    width: 50%;
+    background-color: #3a6073;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  button {
+    width: 25%;
+    background-color: #3a6073;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  p {
+    font-size: 14px;
+    color: #16222a;
+    font-weight: bold;
+  }
+}
