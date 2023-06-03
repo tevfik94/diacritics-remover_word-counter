@@ -1,4 +1,10 @@
+@import "../../app.scss";
 .text {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  @include mobile {
+  }
   label {
     display: flex;
     font-weight: bold;
@@ -6,10 +12,13 @@
   }
   textarea {
     direction: rtl;
-    width: 90%;
+    width: 100%;
     height: 100px;
     box-sizing: border-box;
     resize: none;
+    @include mobile {
+      height: 25%;
+    }
   }
   textarea:focus {
     border-color: blue;
